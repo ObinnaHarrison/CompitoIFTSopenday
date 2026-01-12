@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Day IFTS Java Fullstack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">IFTS Java Fullstack</div>
+      <nav class="nav">
+        <a href="#info">Info</a>
+        <a href="#programma">Programma</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Open Day<br>Corso IFTS Java Fullstack</h1>
+        <p class="subtitle">
+          Trasforma la tua passione per la tecnologia in una carriera. 
+          Diventa uno sviluppatore Java professionista in 6 mesi.
+        </p>
+
+        <div class="hero-features">
+          <div class="feature-item">
+            <span>Formazione pratica</span>
+          </div>
+          <div class="feature-item">
+            <span>Stage garantito</span>
+          </div>
+          <div class="feature-item">
+            <span>Certificato riconosciuto</span>
+          </div>
+          <div class="feature-item">
+            <span>100% Gratuito</span>
+          </div>
+        </div>
+
+        <button class="cta-button">Partecipa all'Open Day</button>
+      </div>
+
+      <div class="hero-info-box">
+        <div class="info-box-header">
+        </div>
+        <div class="info-box-content">
+          <div class="info-row">
+            <span class="info-label">Data:</span>
+            <span class="info-value">Sabato 15 Febbraio 2025</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Orario:</span>
+            <span class="info-value">10:00 - 13:00</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Dove:</span>
+            <span class="info-value">Via Roma 123, Milano<br><small>Aula Magna - Edificio A</small></span>
+          </div>
+        </div>
+
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number" id="days">00</span>
+            <span class="countdown-label">Giorni</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="hours">00</span>
+            <span class="countdown-label">Ore</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="minutes">00</span>
+            <span class="countdown-label">Minuti</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="seconds">00</span>
+            <span class="countdown-label">Secondi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-card">
+        <div class="stat-number">800</div>
+        <div class="stat-label">Ore di formazione</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">85%</div>
+        <div class="stat-label">Tasso di placement</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Mesi di corso</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Gratuito</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="info" id="info">
+    <div class="container columns">
+      <div class="card">
+        <h2> A chi è rivolto</h2>
+        <p>
+          Giovani tra i 18 e i 30 anni diplomati, interessati a una carriera nel mondo
+          della programmazione e dello sviluppo software.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2> Cosa scoprirai all'Open Day</h2>
+        <p>
+          Il programma del corso, le opportunità di stage, le competenze richieste
+          dalle aziende e le possibilità di inserimento lavorativo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COSA IMPARERAI -->
+  <section class="learning" id="programma">
+    <div class="container">
+      <h2> Cosa imparerai</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">1</div>
+          <div class="timeline-content">
+            <h3>Fondamenti Java</h3>
+            <p>Programmazione orientata agli oggetti, collections, exception handling</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">2</div>
+          <div class="timeline-content">
+            <h3>Backend Development</h3>
+            <p>Spring Boot, REST API, microservizi, database SQL/NoSQL</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">3</div>
+          <div class="timeline-content">
+            <h3>Frontend Development</h3>
+            <p>HTML, CSS, JavaScript, React, TypeScript</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">4</div>
+          <div class="timeline-content">
+            <h3>DevOps & Tools</h3>
+            <p>Git, Docker, CI/CD, testing, deployment cloud</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>💬Cosa dicono di noi</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Grazie a questo corso ho trovato lavoro come Java Developer in un'azienda leader del settore. La formazione pratica è stata fondamentale."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Marco R.</strong>
+              <span>Java Developer @ TechCorp</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "I docenti sono preparatissimi e sempre disponibili. Lo stage in azienda mi ha permesso di mettere subito in pratica le competenze acquisite."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <strong>Sara L.</strong>
+              <span>Fullstack Developer @ WebSolutions</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Da zero a sviluppatore in 6 mesi. Non ci credevo, ma con impegno e il supporto dei docenti ce l'ho fatta. Consiglio a tutti!"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Alessandro T.</strong>
+              <span>Backend Developer @ StartupHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>❓ Domande frequenti</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Quali sono i requisiti di accesso?</summary>
+          <p>È necessario avere un diploma di scuola superiore ed età compresa tra 18 e 30 anni. Non sono richieste conoscenze pregresse di programmazione.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Il corso è davvero gratuito?</summary>
+          <p>Sì, il corso è completamente gratuito in quanto finanziato dalla Regione e dal Fondo Sociale Europeo. Non ci sono costi di iscrizione o materiale didattico.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Che attestato rilasciate?</summary>
+          <p>Al termine del corso viene rilasciato un certificato IFTS riconosciuto a livello nazionale ed europeo (livello EQF 4).</p>
+        </details>
+        <details class="faq-item">
+          <summary>Quali sono gli orari delle lezioni?</summary>
+          <p>Le lezioni si svolgono dal lunedì al venerdì, dalle 9:00 alle 17:00. È prevista frequenza obbligatoria per almeno l'80% delle ore.</p>
+        </details>
+        <details class="faq-item">
+          <summary>È previsto uno stage in azienda?</summary>
+          <p>Sì, il percorso include 300 ore di stage presso aziende partner del settore IT, con possibilità di assunzione al termine.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso lavorare mentre frequento il corso?</summary>
+          <p>Il corso è full-time e richiede impegno costante. È difficile conciliarlo con un lavoro a tempo pieno, ma è possibile con attività part-time serali o weekend.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="map-section" id="contatti">
+    <div class="container">
+      <h2>📍 Come raggiungerci</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.2939635112633!2d9.189982315674!3d45.464203979101654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6d1b1e4b3ab%3A0x7e5f8e1d5e5e5e5e!2sPiazza%20del%20Duomo%2C%20Milano%20MI!5e0!3m2!1sit!2sit!4v1234567890123!5m2!1sit!2sit"
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>📧 Email:</strong> info@iftsjava.it
+        </div>
+        <div class="contact-item">
+          <strong>📞 Telefono:</strong> +39 02 1234567
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Open Day IFTS Java Fullstack - Tutti i diritti riservati</p>
+  </footer>
+
+  <script>
+    // Countdown Timer - IMPOSTA QUI LA DATA DEL TUO OPEN DAY
+    const countdownDate = new Date("2026-02-15T10:00:00").getTime();
+    
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+      
+      // Se l'evento è passato, mostra 00:00:00:00
+      if (distance < 0) {
+        document.getElementById("days").innerText = '00';
+        document.getElementById("hours").innerText = '00';
+        document.getElementById("minutes").innerText = '00';
+        document.getElementById("seconds").innerText = '00';
+        return;
+      }
+      
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      document.getElementById("days").innerText = String(days).padStart(2, '0');
+      document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+      document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+      document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+    }
+    
+    // Aggiorna il countdown immediatamente e poi ogni secondo
+    updateCountdown();
+    const countdownInterval = setInterval(updateCountdown, 1000);
+
+    // CTA Button scroll
+    document.querySelector('.cta-button').addEventListener('click', function() {
+      document.querySelector('.map-section').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>
